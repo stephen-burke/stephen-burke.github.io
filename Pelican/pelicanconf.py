@@ -29,6 +29,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
+
+
 DEFAULT_PAGINATION = False
 
 THEME = "/Users/burke/python_stuff/pelican-themes/pelican-bootstrap3"
@@ -36,6 +38,6 @@ BOOTSTRAP_THEME = "flatly"
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGIN_PATHS = ['/Users/burke/python_stuff/pelican-plugins']
 PLUGINS = ['i18n_subsites']
-
+HIDE_SIDEBAR = True
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
